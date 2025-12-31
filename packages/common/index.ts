@@ -13,6 +13,13 @@ export interface ValidateIncomingMessage {
     websiteId: string;
     validatorId: string;
 }
+export type IncomingMessage = {
+    type: 'signup'
+    data: SignupIncomingMessage
+} | {
+    type: 'validate'
+    data: ValidateIncomingMessage
+}
 
 export interface SignupOutgoingMessage {
     validatorId: string;
@@ -40,3 +47,4 @@ export type OutgoingMessage = {
     type: 'validate'
     data: ValidateOutgoingMessage
 }
+
