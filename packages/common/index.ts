@@ -42,12 +42,14 @@ export type IncomingMessage = {
     data: ValidateIncomingMessage
 }
 
-export type OutgoingMessage = {
+
+export type ngMessage = {
     type: 'signup'
     data: SignupOutgoingMessage
 } | {
     type: 'validate'
     data: ValidateOutgoingMessage
 }
+
 
 
