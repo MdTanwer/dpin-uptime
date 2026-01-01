@@ -1,3 +1,5 @@
+
+
 export interface SignupIncomingMessage {
     ip: string;
     publicKey: string;
@@ -47,4 +49,5 @@ export type OutgoingMessage = {
     type: 'validate'
     data: ValidateOutgoingMessage
 }
+
 
