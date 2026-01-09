@@ -10,7 +10,9 @@
         "prettier": "^3.5.3",
         "turbo": "^2.4.4",
         "typescript": "5.8.2",
-      },
+      },jhbfjlheggf
+kikfhief
+fuiyeghbfuilwe
     },
     "apps/api": {
       "name": "api",
@@ -1786,3 +1788,4 @@
     "snakecase-keys/snake-case/dot-case/no-case/lower-case": ["lower-case@2.0.2", "", { "dependencies": { "tslib": "^2.0.3" } }, "sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg=="],
   }
 }
+
